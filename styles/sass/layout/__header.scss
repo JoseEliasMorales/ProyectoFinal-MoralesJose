@@ -1,0 +1,72 @@
+header {
+    .navbar {
+        background-color: #bdc0bd !important;
+        .container-fluid {
+            .navbar-brand {
+                .logo {
+                    width: 150px;
+                }
+            }
+            .collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .active {
+                            border-bottom: 1px solid #000;
+                        }
+                    }
+                }
+                .inicioSesion {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    margin-right: 2rem;
+                    .sesion {
+                        margin: auto;
+                        background-color: transparent;
+                        border: none;
+                        &:hover {
+                            color: #ffd000;
+                        }
+                    }
+                    .dropdown-center {
+                        margin-right: 4rem;
+                    }
+                    .usuario {
+                        width: 30px;
+                        margin: auto;
+                    }
+                }
+                .inicioSesionPages {
+                    @extend .inicioSesion;
+                    .usuario {
+                        width: 30px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        text-align: center;
+        .container-fluid {
+            .collapse {
+                .inicioSesion {
+                    justify-content: center;
+                    margin-right: 0 !important;
+                    .sesion {
+                        margin: 0 !important;
+                    }
+                    .dropdown-center {
+                        margin-right: 0 !important;
+                    }
+                    .usuario {
+                        margin: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@import "layout/_header";
+@import "components/_card";
+@import "base/_reset";
+@import "views/_home";
+@import "views/_coleccion";
+
+body {
+    overflow-x: hidden;
+}

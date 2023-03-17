@@ -1,0 +1,19 @@
+.contenedorShows {
+    position: relative;
+    margin-top: 2rem;
+    .title {
+        margin-left: 1rem;
+    }
+}
+.sombra {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        #fff 100%
+    );
+}
