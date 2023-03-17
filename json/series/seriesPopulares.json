@@ -374,22 +374,5 @@
   "poster_path": "/9bTjPzX48VZGalKEBI6tiknUyLI.jpg",
   "vote_average": 7,
   "vote_count": 4
-  },
-  {
-  "backdrop_path": null,
-  "first_air_date": "1988-05-02",
-  "genre_ids": [ ],
-  "id": 221056,
-  "name": "Tirol Heute",
-  "origin_country": [
-  "DE"
-  ],
-  "original_language": "de",
-  "original_name": "Tirol Heute",
-  "overview": "",
-  "popularity": 1171.542,
-  "poster_path": null,
-  "vote_average": 5,
-  "vote_count": 1
   }
   ]
