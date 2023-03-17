@@ -7,6 +7,7 @@ const contenedorWatchlistPeliculas = document.getElementById(
 
 let watchlistSeries = [];
 let watchlistPeliculas = [];
+let usuarioActivo
 
 //Comprobamos que haya una watchlist en el localStorage de series y/o peliculas y si es asi, la cargamos
 if (localStorage.getItem("watchlistSeries")) {
